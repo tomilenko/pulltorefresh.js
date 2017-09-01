@@ -156,7 +156,7 @@ function _setupEvents() {
     }
 
     if (dist > 0) {
-      e.preventDefault();
+      // e.preventDefault();
 
       ptrElement.style[cssProp] = distResisted + "px";
 
